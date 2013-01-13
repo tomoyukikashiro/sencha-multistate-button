@@ -24,7 +24,7 @@ Those are called when button is tapped second time.
 
 ## Demo
 
-comming soon..
+check [here](http://kashiro.github.com/sencha-multistate-button/)
 
 ## How to use
 
