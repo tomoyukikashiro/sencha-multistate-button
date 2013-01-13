@@ -4,44 +4,34 @@ Ext.define('MultistateButton.view.Main', {
 
     xtype: 'main',
 
+    cls: 'msb-main',
+
     requires: [
         'Ext.ux.MultistateButton'
     ],
 
     config: {
-        width: 300,
-        height: 300,
-        centered: true,
         defaults: {
             xtype: 'container',
-            height: 50
+            height: 100
         },
         layout: 'vbox',
         items: [
             {
                 items: [
                     {
-                        xtype: 'multistatebutton',
-                        width: 100,
-                        docked: 'right',
-                        text: 'right',
-                        afterText: 'tap me!!',
-                        handler: function(){
-                            Ext.Msg.alert('right button tap');
-                        }
-                    }
-                ]
-            },
-            {
-                items: [
+                        xtype: 'container',
+                        cls: 'title',
+                        html: '<h1>Multi-state Button</h1>'
+                    },
                     {
                         xtype: 'multistatebutton',
-                        docked: 'left',
                         width: 100,
-                        text: 'left',
-                        afterText: 'tap me!!',
+                        height: 50,
+                        text: 'Buy now',
+                        afterText: 'Install',
                         handler: function(){
-                            Ext.Msg.alert('left button tap');
+                            Ext.Msg.alert('Thank you');
                         }
                     }
                 ]

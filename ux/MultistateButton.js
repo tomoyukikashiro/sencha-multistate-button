@@ -1,7 +1,7 @@
 /**
  * @class Ext.ux.MultistateButton
  * @extends Ext.Button
- * Description TODO
+ * This is custom component which is multi-state button for sencha touch like install buttom in iPhone app store.
  */
 Ext.define('Ext.ux.MultistateButton', {
 
@@ -15,17 +15,34 @@ Ext.define('Ext.ux.MultistateButton', {
 
     config: {
 
-        stateAnim: null,
+        cls: 'multistate-button',
 
-        duration: 500,
+        /**
+         * duration of animation from first state to second state.
+         * @type {Number}
+         */
+        duration: 250,
 
+        /**
+         * width of second state.
+         * @type {Number}
+         */
         afterWidth: 200,
-    
+
+        /**
+         * css class which is added when button is changed to second state.
+         * @type {String}
+         */
         afterCls: 'msb-after',
 
+        /**
+         * text which is changed when button is changed to second state.
+         * @type {String}
+         */
         afterText: null,
 
-        stateName: 'first'
+        stateName: 'first',
+        stateAnim: null
 
     },
 
@@ -43,7 +60,8 @@ Ext.define('Ext.ux.MultistateButton', {
     },
 
     /**
-     * Whether first state
+     * Whether button is first state or not.
+     * @return {Boolean} when the button is first state, true is returned.
      */
     isFirstState: function(){
         var me = this;
@@ -65,6 +83,9 @@ Ext.define('Ext.ux.MultistateButton', {
 
     /**
      * add unit to css property
+     * @param {String|Number} value css width value.
+     * if the value is Number, added 'px' unit.
+     * return {String} add unit to argument number.
      */
     addUnit: function(value){
         var defaultUnit = 'px';
@@ -79,6 +100,7 @@ Ext.define('Ext.ux.MultistateButton', {
 
     /**
      * remove '!important' from width css property
+     * @param {Number} width css width value.
      */
     modifyWidth: function(width){
         var me = this;
