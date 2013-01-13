@@ -1,7 +1,2 @@
-archive
-build
-config.sublime-*
-project.TODO
-resources
-touch
-app
+cache.appcache
+deltas
