@@ -1,7 +1,7 @@
 //<debug>
 Ext.Loader.setPath({
     'Ext': 'touch/src',
-    'Ext.ux': './ux',
+    'Ext.ux.touch': './ux/touch',
     'MultistateButton': 'app'
 });
 Ext.Loader.setConfig({

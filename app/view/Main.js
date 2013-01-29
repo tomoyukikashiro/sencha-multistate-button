@@ -7,7 +7,7 @@ Ext.define('MultistateButton.view.Main', {
     cls: 'msb-main',
 
     requires: [
-        'Ext.ux.MultistateButton'
+        'Ext.ux.touch.MultistateButton'
     ],
 
     config: {
