@@ -1,6 +1,7 @@
 sencha-multistate-button
 ========================
 
+[![Build Status](https://travis-ci.org/kashiro/sencha-multistate-button.png?branch=master)](https://travis-ci.org/kashiro/sencha-multistate-button)
 
 ## Outline
 
