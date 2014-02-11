@@ -1,0 +1,37 @@
+{
+  "name": "sencha-multistate-button",
+  "version": "0.1.1",
+  "homepage": "https://github.com/kashiro/sencha-multistate-button",
+  "authors": [
+    "Tomoyuki Kashiro <ksrtmyk@gmail.com>"
+  ],
+  "description": "multistate button for sencha touch.",
+  "main": "app/ux/touch/MultistateButton.js",
+  "keywords": [
+    "senchatouch",
+    "button",
+    "extjs"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "Gruntfile.js",
+    "bower.json",
+    "package.json",
+    "app/app",
+    "app/.sencha",
+    "app/app.js",
+    "app/app.json",
+    "app/bootstrap.js",
+    "app/bootstrap.json",
+    "app/build",
+    "app/build.xml",
+    "app/index.html",
+    "app/packager.json",
+    "app/packages",
+    "app/resources",
+    "app/touch",
+    "README.md",
+    "test",
+    ".*"
+  ]
+}
