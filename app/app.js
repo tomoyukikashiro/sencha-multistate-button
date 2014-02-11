@@ -9,12 +9,21 @@
     changes and its generated code, it will produce a "merge conflict" that you
     will need to resolve manually.
 */
+'use strict';
+
+Ext.Loader.setConfig ({
+    enabled: true ,
+    paths: {
+        'Ext.ux.touch.MultistateButton': 'ux/touch/MultistateButton.js'
+    }
+});
 
 Ext.application({
     name: 'MultistateButton',
 
     requires: [
-        'Ext.MessageBox'
+        'Ext.MessageBox',
+        'Ext.ux.touch.MultistateButton'
     ],
 
     views: [

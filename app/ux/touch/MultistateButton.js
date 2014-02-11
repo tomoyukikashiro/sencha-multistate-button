@@ -2,7 +2,7 @@
  * @class Ext.ux.touch.MultistateButton
  * @extends Ext.Button
  * This is custom component which is multi-state button for sencha touch like install buttom in iPhone app store.
- * @version 0.1.2
+ * @version 0.1.3
  * @author Tomoyuki Kashiro <kashiro@github>
  * @license MIT
  */
@@ -54,7 +54,7 @@ Ext.define('Ext.ux.touch.MultistateButton', {
     initialize: function(){
         var me = this;
 
-        me.callParent();
+        //me.callParent();
 
         me.modifyWidth(me.getWidth());
 
