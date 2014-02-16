@@ -1,6 +1,6 @@
 {
   "name": "sencha-multistate-button",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "homepage": "https://github.com/kashiro/sencha-multistate-button",
   "authors": [
     "Tomoyuki Kashiro <ksrtmyk@gmail.com>"
@@ -17,19 +17,7 @@
     "Gruntfile.js",
     "bower.json",
     "package.json",
-    "app/app",
-    "app/.sencha",
-    "app/app.js",
-    "app/app.json",
-    "app/bootstrap.js",
-    "app/bootstrap.json",
-    "app/build",
-    "app/build.xml",
-    "app/index.html",
-    "app/packager.json",
-    "app/packages",
-    "app/resources",
-    "app/touch",
+    "app",
     "README.md",
     "test",
     ".*"
